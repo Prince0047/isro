@@ -1,0 +1,48 @@
+* {
+  font-family: 'Verdana', cursive, sans-serif;
+  /* color: #ffffff; */
+}
+
+.about {
+  background-color: black;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+
+.hero--text--about {
+  font-size: 52px;
+  // color: #222222;
+  //   color: black;
+  //   text-transform: none;
+}
+
+.about--index {
+  height: 100%;
+
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.about--heading {
+  width: 80%;
+  //   text-align: center;
+  //   margin: 100px;
+  margin-left: 250px;
+}
+
+.about--para {
+  //   width: 800px;
+  margin: 100px;
+  line-height: 28px;
+  font-size: 18px;
+}
+
+.about--para2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+}

@@ -1,0 +1,47 @@
+.mission {
+  margin: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.mission--img--div {
+  height: 400px;
+  width: 100%;
+
+  img {
+    // height: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.mission-img2 {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.mission--heading {
+  padding: 25px 50px;
+}
+
+.mission--detail--div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.p-text {
+  font-size: 18px;
+  line-height: 28px;
+
+  span {
+    font-size: 15px;
+    opacity: 0.8;
+  }
+}
+
+.missions--header {
+  margin: 25px;
+}
