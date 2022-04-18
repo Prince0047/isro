@@ -37,8 +37,8 @@ function Launch() {
                 <span>49</span>
               </div>
               <div>
-                <h2>PSLV-C46 Mission</h2>
-                <p>Apr 01, 2019</p>
+                <h2>PSLV-C52 Mission</h2>
+                <p>Feb 14, 2022</p>
               </div>
             </div>
             <pre className='launch--detail'>
