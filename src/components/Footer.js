@@ -54,22 +54,35 @@ function Footer() {
               <a
                 className='footer--social'
                 href='https://www.facebook.com/ISRO'
+                target='_blank'
               >
                 Facbook
               </a>
             </li>
             <li>
-              <a className='footer--social' href='https://twitter.com/isro'>
+              <a
+                className='footer--social'
+                href='https://twitter.com/isro'
+                target='_blank'
+              >
                 Twitter
               </a>
             </li>
             <li>
-              <a className='footer--social' href='https://twitter.com/isro'>
+              <a
+                className='footer--social'
+                href='https://www.youtube.com/channel/UCw5hEVOTfz_AfzsNFWyNlNg'
+                target='_blank'
+              >
                 Youtube
               </a>
             </li>
             <li>
-              <a className='footer--social' href='https://twitter.com/isro'>
+              <a
+                className='footer--social'
+                href='https://www.instagram.com/isro.dos/'
+                target='_blank'
+              >
                 Instagram
               </a>
             </li>

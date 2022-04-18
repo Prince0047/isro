@@ -4,7 +4,9 @@ function Update(props) {
   // console.log(props.img);
   return (
     <div className='update'>
-      <img className='update--img' src={props.update.img} alt='' />
+      <a href={props.update.src} target='_blank'>
+        <img className='update--img' src={props.update.img} alt='' />
+      </a>
       <p className='update--text'>
         <span className='bold'>{props.update.date}</span>
         {props.update.text}

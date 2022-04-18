@@ -6,18 +6,21 @@ export default {
       text: " - ISRO's Chandrayaan-2 Finds Noble Gas on Moon, Beyond the Region Where It Was Supposted to Be",
       img: 'https://cdn.eso.org/images/screen/eso9903c.jpg',
       date: 'Mar 9, 2022',
+      src: 'https://gadgets360.com/science/news/isro-chandrayaan-2-moon-noble-gas-argon-40-ar-detect-exosphere-2812140',
     },
     {
       id: 2,
       text: ' - Space Debris Found in Rural India Likely From China Rocket',
       img: 'http://www.xinhuanet.com/english/2020-05/06/139033066_15886998247591n.jpg',
       date: 'Apr 4, 2022',
+      src: 'https://gadgets360.com/science/news/space-debris-found-in-rural-india-likely-from-china-rocket-2862115',
     },
     {
       id: 3,
       text: " - ISRO Says Mangalyaan Threw Similar Results About Sun's Corona as NASA's Parker Probe",
       img: 'https://spaceplace.nasa.gov/gallery-sun/en/solar-flare.en.jpg',
       date: 'Mar 4, 2022',
+      src: 'https://gadgets360.com/science/news/isro-mangalyaan-mars-orbiter-mom-sun-corona-study-nasa-parker-solar-probe-2802949',
     },
   ],
   launchers: {
