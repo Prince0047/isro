@@ -21,22 +21,38 @@ body {
 
 .container {
   width: 600px;
-  background-color: rgb(143, 208, 185);
+  background-color: rgb(136, 196, 196);
   border-radius: 15px;
 
   .contact--us {
     text-align: center;
-    color: #5831f4;
+    font-size: 24px;
+    stroke-linejoin: round;
+    text-anchor: middle;
+    fill: black;
+    stroke: white;
+    stroke-width: 12px;
+    paint-order: stroke;
   }
 }
 
 .errorMessage {
   color: red;
-  padding-bottom: 100px;
+  // padding-bottom: 100px;
   position: relative;
-  bottom: 80px;
+  bottom: 90px;
   font-size: 14px;
   //   left: 200px;
+}
+
+#notifyToast {
+  background-color: rgb(107, 206, 96);
+  width: 200px;
+  color: white;
+
+  .Toastify__close-button {
+    width: fit-content;
+  }
 }
 
 button {
@@ -97,13 +113,13 @@ form {
   width: 100%;
 }
 
-.icon {
-  display: block;
-  fill: #474544;
-  height: 50px;
-  margin: 0 auto;
-  width: 50px;
-}
+// .icon {
+//   display: block;
+//   fill: #474544;
+//   height: 50px;
+//   margin: 0 auto;
+//   width: 50px;
+// }
 
 .email {
   float: right;

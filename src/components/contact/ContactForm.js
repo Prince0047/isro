@@ -24,6 +24,7 @@ const ContactForm = () => {
       draggable: false,
       className: 'submit-feedback success',
       toastId: 'notifyToast',
+      width: '100px',
     });
   };
 
@@ -39,12 +40,14 @@ const ContactForm = () => {
         message,
       };
 
-      await emailjs.send(
-        process.env.REACT_APP_SERVICE_ID,
-        process.env.REACT_APP_TEMPLATE_ID,
-        templateParams,
-        process.env.REACT_APP_USER_ID
-      );
+      // alert('Your message has been Sent');
+
+      // await emailjs.send(
+      //   process.env.REACT_APP_SERVICE_ID,
+      //   process.env.REACT_APP_TEMPLATE_ID,
+      //   templateParams,
+      //   process.env.REACT_APP_USER_ID
+      // );
 
       reset();
       toastifySuccess();
